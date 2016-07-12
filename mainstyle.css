@@ -1,0 +1,236 @@
+/* 	Main Page Cascading Style Sheet
+	Author : Supragya Raj
+	
+	CSS Layering info:
+	Layering in this CSS file is as follows:
+
+*/
+#navbar {
+  height:50px;
+  background-color: rgba(240,240,240,0);
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-top:0px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding:-15px -15px -15px -15px;
+  width:100%;
+  position:fixed;
+  z-index:5;
+}
+#logoholder {
+	float:left;
+	z-index:inherit;	
+}
+#mainsitelogo{
+	height:50px;
+	width:215px;
+	z-index:inherit;
+}	
+#navigation{
+	float:right;
+	display:inline-table;
+    margin-right: 25px;
+	z-index:inherit;
+}
+ul.mainlogo{
+	padding:0px;
+}
+ul.mainlogo li {
+	display:inline;
+}
+ul.navigation-right{
+	padding:0;
+}
+ul.navigation-right li{
+	display:inline;
+	font-size: 20px;
+	font-family:Helvetica, Arial, sans-serif;
+	padding:2px;
+}
+ul.navigation-right a.active_page_nav{
+	background-color:rgba(175,175,175,0.7);
+	color: white;
+	padding:10px 10px;
+	text-decoration:none;
+	border-radius: 4px 4px 4px 4px ;
+	border-width: 1px;
+	border-color: #fff;
+	margin-right:3px;
+}
+ul.navigation-right a.inactive_page_nav{
+	background-color:rgba(175,175,175,0);
+	color: white;
+	padding:10px 10px 10px 10px;
+	text-decoration:none;
+	border-radius: 4px 4px 4px 4px ;
+	margin-right:3px;
+}
+#topsearch{
+	display:inline-table;
+}
+.formtext{
+	display: inline-block;
+    width: auto;
+    vertical-align: middle;
+	height: 25px;
+ 	padding: 0px 0px;
+ 	font-size: 15px;
+ 	line-height: 1 ;
+ 	border-radius: 30px;
+}
+#attract{
+	height: 800px;
+	opacity:1;
+	position:relative;
+	margin-top:-10px;
+	margin-right:-10px;
+	margin-left:-10px;
+	padding-left: 0.1%;
+	width:100%;
+	z-index:1;
+}
+#attract0{
+	height: 800px;
+	width: 102%;
+	align: center;
+	position:absolute;
+	opacity: 1;
+	z-index: 1;
+}
+#attract1{
+	height: 800px;
+	width: 102%;
+	align: center;
+	position:absolute;
+	opacity:0;
+	z-index:2;
+}
+#footerbox{
+	background-color: rgba(50,50,50,0.78);
+	margin-left:-15px;
+	margin-right:-15px;
+	margin-bottom:-90px;
+	margin-top: 20px;
+	padding-top: 2.5%;
+	height:500px;
+	width:100%;
+	position:relative;
+	z-index:3;
+}
+#side-popup{
+	float:right !important;
+	background-color:rgba(255,253,0,0);
+	width:300px;
+	height:200px;
+	position: absolute;
+	margin-top:120px;
+	margin-left:65%;
+	z-index:3;
+}
+#attract_box_overlay{
+	position:absolute;
+	background-color:rgba(0,0,0,0.1	);
+	width:100%;
+	height:800px;
+	z-index:2;
+	margin-top:0px;
+	margin-left:-10px;
+	margin-right:-20px;	
+}
+#attract_head{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 30px;
+	font-size: 90px;
+	color: white;
+}
+#attract_para{
+	font-family: Helvetica, Arial, sans-serif;
+	margin-left: 30px;
+	color: white;
+}
+#mainbodycontents{
+	width: 110%;
+	height: auto;
+	position: absolute;
+	background-color:#ff;
+	margin-left: -5%;
+	margin-right: 5%;
+	margin-top: 0px;
+	margin-bottom:12px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index:3;
+}
+#attractemails{
+	margin-top: 15px;
+	margin-top:15px;
+	padding-top: 20px;
+	padding-bottom:20px;
+	text-align: center;
+	background-image:url("../images/attractemail.jpg");
+	background-attachment: fixed;
+}
+#computer_machines_header{
+	color : #ddd;
+	background-image: url("../images/computer_slider_red_tinge.jpg");
+	height: 400px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	position: relative;
+	z-index: 2;
+}
+#science_header{
+	color : #ddd;
+	background-image: url("../images/science_slider_blue_tinge.jpg");
+	height: 400px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#outlook_header{
+	color : #ddd;
+	background-color: #292;
+	height: 400px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#mainbodycontents p{
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+#mainbodycontents h3{
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-bottom: -30px;
+	font-size: 60px;
+	color: #444;
+}
+#mainbodycontents h4{
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-bottom: -30px;
+	font-size: 50px;
+	color: #444;
+}
+.main_page_articles{
+	width:50%;
+	float:left;
+	height:200px;
+}
+.author_display{
+	width:50%;
+	height:150px;
+}
+body{
+	background-image:url("../images/BG_main.jpg");
+	background-position: center center;
+	background-width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
